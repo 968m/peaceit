@@ -1,0 +1,30 @@
+<!doctype HTML />
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TODO list test</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <script src="todo.js"></script>
+</head>
+
+<body>
+    <div id="todolist">
+    <h1>TODO list</h1>
+        <div id="inputFormDiv" align="center">
+            <form autocomplete="on" id="inputform" onSubmit="btnAddClick(); return false;">
+                The Next Big Thing:
+                <input id="inputbox" type="text" placeholder="todododooo" autofocus>
+                <input id="btnAdd" type="button" value="Add Task" onClick="btnAddClick()">
+                <input id="btnClear" type="button" value="Clear list" onClick="clearTable()">
+            </form>
+        </div>
+
+        <div id="taskList">
+            <h2>Tasks to do:</h2>
+            <table id="taskTable" border="2" align="center" width = "500px">
+            </table>
+        </div>
+    </div>
+</body>
+</html>

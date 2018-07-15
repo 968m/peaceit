@@ -1,0 +1,52 @@
+tr {
+    background-color: #f5f5dc;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ffff00;
+}
+
+div#todolist {
+    display:block;
+    background-color: #EEEEEE;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+table, tr, td {
+    border: 0px;
+}
+
+tr.tskDone {
+    background-color: #87cefa;
+}
+
+td.tskDone {
+    text-decoration: line-through;
+    color: #696969;
+}
+
+.button {
+    width: 30px;
+    border-radius:0.12em;
+    font-weight: bold;
+    font-size: x-small;
+    font-family: sans-serif;
+    text-align:center;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btnDelete:hover {
+    background-color: #ff0000;
+}
+
+.btnCheck:hover {
+    background-color: #32cd32;
+}
